@@ -1,0 +1,30 @@
+.form-sign-in {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+ 
+.form-sign-in .checkbox {
+    font-weight: 400;
+}
+  
+.form-sign-in .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-sign-in input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-sign-in input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-sign-in form #img, .form-sign-in form h1, .form-sign-in form p {
+    text-align: center;
+}

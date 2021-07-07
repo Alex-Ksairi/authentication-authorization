@@ -1,0 +1,38 @@
+<%- include('partials/_header.ejs') %>
+
+<main class="form-sign-in" >
+    <form method="POST" action="/users/register" >
+      <img class="mb-4" src="https://freesvg.org/storage/img/thumb/abstract-user-flat-1.png" alt="" width="72" height="57">
+      <h1 class="h3 mb-3 fw-normal">Become a member!</h1>
+      <div class="mb-3">
+        <label for="firstname" class="form-label">First Name</label>
+        <input type="text" class="form-control" id="firstname" name="firstname" >
+      </div>
+      <div class="mb-3">
+        <label for="lastname" class="form-label">Last Name</label>
+        <input type="text" class="form-control" id="lastname" name="lastname" >
+      </div>
+      <div class="mb-3">
+        <label for="username" class="form-label">Username</label>
+        <input type="text" class="form-control" id="username" name="username" >
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="inputPassword" class="form-label">Password</label>
+        <input type="password" class="form-control" id="inputPassword" name="password">
+      </div>
+      <div class="mb-3">
+        <label for="inputRePassword" class="form-label">Re- Password</label>
+        <input type="password" class="form-control" id="inputRePassword">
+      </div>
+      <div class="checkbox mb-3">
+      </div>
+      <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
+      <p class="mt-5 mb-3 text-muted">© 2017 - 2021</p>
+    </form>
+  </main>
+
+<%- include('partials/_footer.ejs') %>
